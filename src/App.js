@@ -2,12 +2,8 @@ import React from 'react';
 import { Switch, Route, Link } from 'react-router-dom';
 import { Layout, Typography, Space } from 'antd';
 
-import {
-  Homepage,
-  Cryptocurrencies,
-  CryptoDetails,
-  Navbar,
-} from './components';
+import { Navbar } from './components';
+import { Homepage, Cryptocurrencies, CryptoDetails } from './views';
 import './App.css';
 
 const App = () => (

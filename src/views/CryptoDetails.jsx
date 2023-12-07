@@ -6,8 +6,8 @@ import { Col, Row, Typography, Select } from 'antd';
 import { MoneyCollectOutlined, DollarCircleOutlined, FundOutlined, ExclamationCircleOutlined, StopOutlined, TrophyOutlined, CheckOutlined, NumberOutlined, ThunderboltOutlined } from '@ant-design/icons';
 
 import { useGetCryptoDetailsQuery, useGetCryptoHistoryQuery } from '../services/cryptoApi';
-import Loader from './Loader';
-import LineChart from './LineChart';
+import Loader from '../components/Loader';
+import LineChart from '../components/LineChart';
 
 const { Title, Text } = Typography;
 const { Option } = Select;
